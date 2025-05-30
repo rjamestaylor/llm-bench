@@ -1,0 +1,109 @@
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+.hypothesis/
+.venv
+venv/
+path/
+ENV/
+env/
+.python-version
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Docker
+docker-compose.override.yml
+.docker/
+
+# Node
+node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Models and data
+*.gguf
+*.bin
+*.onnx
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.weights
+models/
+weights/
+data/
+datasets/
+
+# Benchmark specific
+benchmarking/benchmark-reports/*
+benchmarking/benchmark-reports/sample/*.png
+!benchmarking/benchmark-reports/sample
+!benchmarking/benchmark-reports/sample/sample_summary.csv
+
+# Logs and temporary files
+logs/
+*.log
+*.tmp
+tmp/
+temp/
+nohup.out
+
+# Environment variables and secrets
+.env
+.env.*
+*.key
+*.pem
+*.cert
+secrets/
+
+# IDE specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.classpath
+.settings/
+*.sublime-workspace
+.history/
+
+# Local configuration
+config.local.js
+config.dev.js
+.local/
