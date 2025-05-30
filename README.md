@@ -4,7 +4,7 @@ A comprehensive benchmarking suite for Large Language Models with special optimi
 
 ## Overview
 
-LLM-Bench provides a sophisticated suite of tools for benchmarking, analyzing, and visualizing the performance of Large Language Models running on [Ollama](https://ollama.ai/), with specific optimizations for Apple Silicon hardware. This standalone benchmarking tool can work independently or alongside the [llm-stack](https://github.com/yourusername/llm-stack) project.
+LLM-Bench provides a sophisticated suite of tools for benchmarking, analyzing, and visualizing the performance of Large Language Models running on [Ollama](https://ollama.ai/), with specific optimizations for Apple Silicon hardware. This standalone benchmarking tool can work independently or alongside the [llm-stack](https://github.com/rjamestaylor/llm-stack) project.
 
 ### Key Features
 
@@ -30,7 +30,7 @@ LLM-Bench provides a sophisticated suite of tools for benchmarking, analyzing, a
 
 ```bash
 # Clone the repository
-git clone https://github.com/yourusername/llm-bench.git
+git clone https://github.com/rjamestaylor/llm-bench.git
 cd llm-bench
 
 # Make scripts executable
@@ -42,8 +42,8 @@ chmod +x utils/*.sh
 
 ```bash
 # Clone both repositories side by side
-git clone https://github.com/yourusername/llm-stack.git
-git clone https://github.com/yourusername/llm-bench.git
+git clone https://github.com/rjamestaylor/llm-stack.git
+git clone https://github.com/rjamestaylor/llm-bench.git
 
 # llm-bench will automatically detect llm-stack if in sibling directory
 ```
@@ -110,7 +110,7 @@ For detailed API responses and troubleshooting:
 
 ## Integration with llm-stack
 
-LLM-Bench is designed to work seamlessly with the [llm-stack](https://github.com/yourusername/llm-stack) project, but can also operate completely independently.
+LLM-Bench is designed to work seamlessly with the [llm-stack](https://github.com/rjamestaylor/llm-stack) project, but can also operate completely independently.
 
 ### Automatic Detection
 
@@ -198,4 +198,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Built to work with [Ollama](https://ollama.ai/)
-- Originally developed as part of the [llm-stack](https://github.com/yourusername/llm-stack) project
+- Originally developed as part of the [llm-stack](https://github.com/rjamestaylor/llm-stack) project
